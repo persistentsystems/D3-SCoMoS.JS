@@ -20,7 +20,7 @@
 
 1. run the gulp task "concat_d3scomos" will generate concatenated build in dist folder.
 2. running tests:
-	*  Go to folder tests open index.html.
+	*  Go to folder tests and open index.html.
 	*  This  will take care of running tests and showing reports
 3. code coverage (to be added).
   
@@ -28,24 +28,27 @@
 
 1. Include in your project 
   
-  `<script src="/js/D3_SCoMoS/d3/d3.js"></script>`  
-  `<script src="/js/D3_SCoMoS/dist/d3scomos.js"></script>`
+ ```sh
+  <script src="/js/D3_SCoMoS/d3/d3.js"></script>
+  <script src="/js/D3_SCoMoS/dist/d3scomos.js"></script>
+  ```
 2. Select div to draw graph on
 	
-    `var sGraph = d3scomos.eskinModel(d3.select('#chart'),{'height':"450px"});`
+ ```sh
+  var sGraph = d3scomos.eskinModel(d3.select('#chart'),{'height':"450px"});
+ ```
 3. Pass your SBML JSON to library
-	
-    `sGraph.generate(your_sbml_json_obj);` 
-	
-    Note: You can view the demo application specified below to know the JSON format.
-5. Set mode to select
-	
-    `sGraph.setPanMode('PAN');`
-
-           
+```sh
+  sGraph.generate(your_sbml_json_obj);
+```	
+   Note: You can view the demo application specified below to view the JSON format.
+4. Set mode to select
+```sh
+  sGraph.setPanMode('PAN');`
+```
   
 ###  Demo
-A simple demo application for D3-SCoMoS library can be found here:
-http://eskin.persistent.co.in/git/d3scomosdemo
-           
+A demo application for D3-SCoMoS library can be found at:
+http://eskin.persistent.co.in/git/d3scomosdemo 
+
 Note: Please use Google Chrome / Mozilla Firefox browser to view this demo.
