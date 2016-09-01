@@ -38,11 +38,14 @@
   var sGraph = d3scomos.eskinModel(d3.select('#chart'),{'height':"450px"});
  ```
 3. Pass your SBML JSON to library
+ 
  ```sh
   sGraph.generate(your_sbml_json_obj);
  ```	
    Note: You can view the demo application specified below to view the JSON format.
+
 4. Set mode to select
+ 
  ```sh
   sGraph.setPanMode('PAN');`
  ```
