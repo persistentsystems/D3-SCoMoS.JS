@@ -47,7 +47,7 @@
 4. Set mode to select
  
  ```sh
-  sGraph.setPanMode('PAN');`
+  sGraph.setPanMode('PAN');
  ```
   
 ###  Demo
