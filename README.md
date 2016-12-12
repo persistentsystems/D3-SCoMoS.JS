@@ -51,7 +51,7 @@
   
 ###  Demo
 A demo application for D3-SCoMoS library can be found at:
-http://eskin.persistent.co.in/git/d3scomosdemo 
+https://eskin.persistent.co.in/git/d3scomosdemo 
 
 Note: Please use Google Chrome / Mozilla Firefox browser to view this demo.
 
